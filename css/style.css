@@ -4,7 +4,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(236, 224, 219);
+  background-color: white;
 }
 
 .clickMe {
