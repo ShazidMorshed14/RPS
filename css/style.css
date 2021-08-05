@@ -1,0 +1,159 @@
+body {
+  margin: 0 auto;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(236, 224, 219);
+}
+
+.clickMe {
+  padding: 10px;
+}
+.reset {
+  padding: 10px;
+}
+
+.header-1 {
+  text-align: center;
+}
+
+.container-3 {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 80%;
+}
+
+.flex-box-container-rps {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  display: flex;
+  padding: 1em;
+}
+.flex-box-container-rps-result,
+.flex-box-container-rps-reset {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  display: flex;
+  padding: 1em;
+  text-align: center;
+}
+.flex-box-container-rps-result {
+  margin: 1em 0px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.flex-box-container-rps-reset {
+  background-color: rgb(247, 134, 93);
+  text-align: center;
+}
+.flex-box-container-rps img {
+  margin: 10px;
+}
+
+.flex-box-container-rps img:hover {
+  box-shadow: 0px 10px 50px rgba(37, 50, 233, 1);
+}
+
+.container-my_try {
+  margin: 0 auto;
+  text-align: center;
+  width: 75%;
+  border: 1px solid black;
+}
+
+.flex-box-container-new-game {
+  border: 1px solid green;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  display: flex;
+}
+
+.flex-box-container-new-game img {
+  margin: 10px;
+}
+
+.container-4 {
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid brown;
+  width: 75%;
+}
+
+.flex-box-container-image-show {
+  border: 2px solid green;
+  justify-content: space-around;
+  display: flex;
+}
+.flex-box-container-image-show img {
+  margin: 10px;
+  padding: 20px;
+}
+
+.flex-box-container-image-show img:hover {
+  box-shadow: 10px 10px 5px grey;
+}
+
+.Heading-container {
+  padding: 1em;
+  background-color: rgb(165, 220, 224);
+  letter-spacing: 0.1em;
+}
+
+.flex-box-container-rps-reset button {
+  background-color: white;
+  color: black;
+
+  border-radius: 20px;
+  padding: 0.5em 1em;
+  font-weight: 600;
+}
+
+.flex-box-container-rps img {
+  cursor: crosshair;
+}
+
+.flex-box-container-rps {
+  margin: 1em 0;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+
+.About {
+  margin-top: 1em;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+/********************************************/
+@media screen and (max-width: 600px) {
+  .flex-box-container-rps img {
+    margin-top: 4px;
+    width: 4em;
+  }
+
+  .flex-box-container-rps-result img,
+  .flex-box-container-rps-reset img {
+    width: 4em;
+  }
+
+  .flex-box-container-rps-result,
+  .flex-box-container-rps-reset,
+  .flex-box-container-rps-reset {
+    font-size: small;
+    text-align: center;
+  }
+
+  .Heading-container {
+    font-size: x-small;
+  }
+}
